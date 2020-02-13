@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="autor" content="Bruno Verdan" />
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <title>Página Inicial</title>
+        <script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
+    </head>
+    <body>
+        <div class="container" id="container">
+            <header>
+                <figure><a href="index.html" title="Link para o index">
+                    <img id="logo" src="img/Bruno_JOgos.png" alt="logotipo da página" title="logotipo da página"></a>
+                </figure>
+            </header>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html" title="Link para o index">Página Inicial</a></li>
+                    <li><a href="sobre.html" title="Link para o sobre">Sobre</a></li>
+                    <li><a href="noticias.html" title="Link para o notícias">Notícias</a></li>
+                    <li><a href="contato.html" title="Link para o contato">Contato</a></li>
+                    <li><a href="biblioteca.html" title="Link para a biblioteca">Biblioteca</a></li>
+                    <li>
+                        <label for="pesquisar">Buscar: </label>
+                        <input type="text" id="pesquisar" name="pesquisar" placeholder="Pesquise aqui">
+                        <input type="submit" id="btnPesquisar" name="btnPesquisar" value="Buscar">
+                    </li>
+                    <li class="entrar">Entrar
+                        <ul>
+                            <li><a href="entrar.html#login" title="Link para o login"> Login</a></li>
+                            <li><a href="entrar.html#cadastrar" title="Link para o cadastrar">Cadastrar-se</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <main id="jogos">
+                <div class="jogoPrincipal">
+                    <h2>Jogo da Memória</h2>
+                    <a href="jogo/jogoDaMemoria.html" title="Jogo da Memória">
+                    <figure>
+                        <img src="img/jogoDaMem.png" id="banner" alt="banner do jogo principal" title="Jogo da memória">
+                    </figure></a>
+                </div>
+                <section id="jogosSecundarios">
+                    <div class="jogoSec1">
+                        <p>Jogo da Velha</p>
+                        <a href="construcao.html" title="Página do jogo.">
+                        <figure class="jogo1">
+                            <img src="img/jogoDaVel.png" id="jogo1" alt="jogo secundário" title="Jogo secundário">
+                        </figure></a>
+                    </div>
+                    <div class="jogoSec2">
+                        <p>Dama</p>
+                        <a href="construcao.html" title="Página do jogo.">
+                        <figure class="jogo2">
+                            <img src="img/Damas.jpg" id="jogo2" alt="Jogo terciário" title="Jogo terciário">
+                        </figure></a>
+                    </div>
+                    <div class="jogoSec3">
+                        <p>Xadrez</p>
+                        <a href="construcao.html" title="Página do jogo.">
+                        <figure class="jogo3">
+                            <img src="img/Xadrez.jpg" id="jogo3" alt="Jogo quartenário" title="Jogo quartenário">
+                        </figure></a>
+                    </div>
+                </section>
+                <section id="comentarios"><h1 class="comentarios">Comentários:</h1>
+                    <p>Cássia: Amei o design e o layout, é tudo muito simples de mexer. Fiquei horas jogando, até perdi a noção de tempo! Recomendo.</p>
+                    <p>Bruno: Passei horas jogando.</p>
+                    <p>Thiago: Site muito ruim, falhando e caindo o tempo todo.</p>
+                    <p>Gabriel: Gostei do site.</p>
+                </section>
+            </main>
+            <footer>
+                <ul id="navbarFooter">
+                    <li><a href="index.html" title="Link para o index">Página Inicial</a></li>
+                    <li><a href="sobre.html" title="Link para o sobre">Sobre</a></li>
+                    <li><a href="noticias.html" title="Link para o notícias">Notícias</a></li>
+                    <li><a href="contato.html" title="Link para o contato">Contato</a></li>
+                    <li><a href="entrar.html#login" title="Link para o login">Login</a></li>
+                    <li><a href="entrar.html#cadastrar" title="Link para o cadastrar">Cadastrar-se</a></li>
+                </ul>
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" title="Link para o facebook"><div class="facebook"></div></a>
+                <a href="https://www.instagram.com/" title="Link para o instagram"><div class="instagram"></div></a>
+                <a href="https://twitter.com/login?lang=pt" title="Link para o twitter"><div class="twitter"></div></a>
+            </footer>
+        </div>
+    </body>
+</html>

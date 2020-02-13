@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="autor" content="Bruno Verdan" />
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <title>Usuário</title>
+        <script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
+    </head>
+    <body>
+        <div class="container" id="container">
+            <header>
+                <figure><a href="index.html" title="Link para o index">
+                    <img id="logo" src="img/Bruno_JOgos.png" alt="logotipo da página" title="logotipo da página"></a>
+                </figure>
+            </header>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html" title="Link para o index">Página Inicial</a></li>
+                    <li><a href="sobre.html" title="Link para o sobre">Sobre</a></li>
+                    <li><a href="noticias.html" title="Link para o notícias">Notícias</a></li>
+                    <li><a href="contato.html" title="Link para o contato">Contato</a></li>
+                    <li><a href="biblioteca.html" title="Link para a biblioteca">Biblioteca</a></li>
+                    <li>
+                        <label for="pesquisar">Buscar: </label>
+                        <input type="text" id="pesquisar" name="pesquisar" placeholder="Pesquise aqui">
+                        <input type="submit" id="btnPesquisar" name="btnPesquisar" value="Buscar">
+                    </li>
+                    <li class="entrar">Entrar
+                        <ul>
+                            <li><a href="entrar.html#login" title="Link para o login"> Login</a></li>
+                            <li><a href="entrar.html#cadastrar" title="Link para o cadastrar">Cadastrar-se</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <h1>Perfil: Bruno Verdan <img src="img/usuario_sem_foto.png" alt="Foto do Usuário" title="Foto do Usuário" id="imgUsuario"></h1>
+                
+                <section class="jogosDisponiveis">
+                    <h2>JOGOS DISPONÍVEIS PARA COMPRA</h2>
+                    <table class="tabela">
+                        <thead>
+                            <tr>
+                                <th>Jogo</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p>Jogo da Memória</p></td>
+                                <td><p>R$50,00</p></td>
+                                <td><input type="submit" id="Comprar" value="Comprar"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="historicoCompras">
+                    <h2>HISTÓRICO DE COMPRAS</h2>
+                    <table class="tabela">
+                        <thead>
+                            <tr>
+                                <th>Jogo</th>
+                                <th>Preço</th>
+                                <th>Data da Compra</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p>Jogo da Velha</p></td>
+                                <td><p>R$50,00</p></td>
+                                <td><p>25/12/2018</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Damas</p></td>
+                                <td><p>R$5,00</p></td>
+                                <td><p>05/03/2019</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Xadrez</p></td>
+                                <td><p>R$10,00</p></td>
+                                <td><p>10/12/2019</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </section>
+            </main>
+            <footer>
+                <ul id="navbarFooter">
+                    <li><a href="index.html" title="Link para o index">Página Inicial</a></li>
+                    <li><a href="sobre.html" title="Link para o sobre">Sobre</a></li>
+                    <li><a href="noticias.html" title="Link para o notícias">Notícias</a></li>
+                    <li><a href="contato.html" title="Link para o contato">Contato</a></li>
+                    <li><a href="entrar.html#login" title="Link para o login">Login</a></li>
+                    <li><a href="entrar.html#cadastrar" title="Link para o cadastrar">Cadastrar-se</a></li>
+                </ul>
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" title="Link para o facebook"><div class="facebook"></div></a>
+                <a href="https://www.instagram.com/" title="Link para o instagram"><div class="instagram"></div></a>
+                <a href="https://twitter.com/login?lang=pt" title="Link para o twitter"><div class="twitter"></div></a>
+            </footer>
+        </div>
+    </body>
+</html>

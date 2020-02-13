@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+body {
+    background: #f4bdef;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* header */
+
+header {
+    text-align: center;
+}
+
+img#logo {
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+}
+
+li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#navbar li:hover {
+    color: whitesmoke;
+    background-color: #e600e5;
+    border-radius: 10%;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-radius: 10px;
+    background-color: #e600e5;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#navbar ul li  {
+    padding-top: 4px;   
+}
+
+#navbar li ul{
+    display: none;
+    position: absolute;
+    top: 228px;
+    right: 80px;
+}
+.entrar {
+    text-align: center;
+    font-size: 1.2em;
+    width: 150px;
+    background: #3d2143;
+    color:white;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+#pesquisar {
+    border-radius: 15px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color:white; 
+}
+
+#navbar li:hover ul{
+    display: block;
+}
+
+#navbar li ul li{
+    display: block;
+    width: 150px;
+    height: 35px;
+}
+
+/* body */
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+main {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#banner {
+    width:1000px;
+    height: 550px;
+}
+
+#jogosSecundarios {
+    display: flex;
+    justify-content: space-around;
+}
+
+#jogos {
+    text-align: center;
+}
+
+.jogoPrincipal {
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 60%;
+    border: 1px solid black;
+    background: black;
+}
+
+#banner {
+    width: 100%;
+}
+
+.jogoSec1, .jogoSec2, .jogoSec3 {
+    display: inline-block;
+    color: white;
+    margin-top: 20px ;
+    background: black;
+    font-size: 1.2em;
+}
+
+.jogoPrincipal:hover, .jogoSec1:hover, .jogoSec2:hover, .jogoSec3:hover {
+    transform: scale(1.01);
+}
+
+#jogo1, #jogo2, #jogo3 {
+    width: 300px;
+    height: 300px;
+}
+
+section {
+    text-align: center;
+} 
+
+#comentarios {
+    border-radius: 45px;
+    background: linear-gradient(to right, rgba(186,85,211),rgba(255,255,255,0.3));
+    font-size: 1.2em;
+}
+
+.comentarios {
+    font-size: 1.8em;
+}
+
+#formulario {
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#login {
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    width: 200px;
+}
+
+#login:target {
+    display: block;
+}
+
+#cadastrar {
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    width: 200px;
+}
+
+#cadastrar:target {
+    display: block;
+}
+
+#noticiaPrinc {
+    width:1000px;
+    height: 550px;
+}
+
+#noticiasSecundarias {
+    display: flex;
+    justify-content: space-around;
+}
+
+#noticias {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.noticiaPrincipal {
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 60%;
+    background: transparent;
+}
+
+#noticiaPrinc {
+    width: 100%;
+}
+
+.noticiaSec1, .noticiaSec2, .noticiaSec3 {
+    width: 400px;
+    display: inline-block;
+    margin-top: 20px ;
+    background: transparent;
+}
+
+#noticia1, #noticia2, #noticia3 {
+    width: 100%;
+    height: auto;
+}
+
+#nome, #email, #senha{
+    margin-bottom: 10px ;
+    margin-top: 10px ;
+}
+
+.construcao {
+   text-align: center;
+}
+
+.img1, .img2, .img3, .img4 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+    background: indigo;
+}
+
+#img1, #img2, #img3, #img4 {
+    width: 355px;
+    height: 354px;
+}
+
+.ajusteImg {
+    border: 2px solid black;
+    margin-right: 15px;
+}
+
+h1 {
+    margin-bottom: 4%;
+}
+
+.tabela {
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+#imgUsuario {
+    width: 100px;
+    height: 100px;
+}
+
+td,th {
+    padding-right: 85px;
+}
+
+.sobre {
+    font-size: 1.4em;
+}
+
+.linkNot {
+    color: blue;
+}
+
+.linkNot:visited {
+    color: blue;
+}
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    background: gray;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#navbarFooter {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#navbarFooter ul {
+    list-style-type: none;
+}
+
+#navbarFooter li {
+    margin-top: 10px;
+}
+
+.facebook, .instagram, .twitter {
+    display: inline-block;
+}
+
+.facebook {
+    background: url(img/08f3fccb-0d05-416e-bd28-2a8b3f8678c4.jpg) no-repeat -9px -301px;
+	width: 45px;
+	height: 45px;
+}
+
+.instagram {
+    background: url(img/08f3fccb-0d05-416e-bd28-2a8b3f8678c4.jpg) no-repeat -337px -301px;
+	width: 45px;
+	height: 45px;
+}
+
+.twitter {
+    background: url(img/08f3fccb-0d05-416e-bd28-2a8b3f8678c4.jpg) no-repeat -63px -301px;
+	width: 45px;
+	height: 45px;
+}
+
+@media screen and (max-width: 1024px) {
+    #navbar ul {
+        display: block;
+        list-style-type: none;
+        border-radius: 10px;
+        background-color: #e600e5;
+        color: whitesmoke;
+        padding: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #navbar li ul{
+        display: none;
+        position: absolute;
+        top: 44%;
+        right: 35%;
+    }
+
+    li a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    .jogoPrincipal {
+        color: white;
+        margin: 0 auto;
+        padding-bottom: 5px;
+        width: 100%;
+        border: 1px solid black;
+        background: black;
+    }
+    
+    .noticiaPrincipal, .noticiaSec1, .noticiaSec2, .noticiaSec3 {
+        width: 400px;
+        display: block;
+        margin-top: 20px ;
+        background: transparent;
+    }
+
+    #noticiasSecundarias {
+        display: block;
+    }
+
+    .img1, .img2, .img3, .img4 {
+        color: whitesmoke;
+        display: block;
+        margin-top: 25px;
+        background: indigo;
+    }
+
+    .entrar {
+        margin: 0 auto;
+    }
+
+    #jogosSecundarios {
+        display: block;
+    }
+
+    #navbarFooter {
+        list-style-type: none;
+        display: block;
+    }
+}

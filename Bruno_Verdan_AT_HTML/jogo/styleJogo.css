@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#tabuleiro {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 260px;
+}
+.memory-card {
+    width: calc(25% - 10px);
+    height: 33%;
+    margin: 5px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+
+.memory-card:active{
+    transform: scale(0.97);
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+button{
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 7px;
+  }
+  
+  button:hover {background-color: white}
+  
+  button:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  } 
+
+img {
+     border-radius: 85px;
+}  
+
+.front-face, .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: indigo;
+    position: absolute;
+}
+
+.front-face {
+    transform: rotateY(180deg);
+}
+
